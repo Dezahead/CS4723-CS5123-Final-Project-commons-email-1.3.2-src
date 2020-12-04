@@ -1,11 +1,12 @@
 package org.apache.commons.mail;
 
+import junit.framework.TestCase;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class SimpleEmailTest {
+public class SimpleEmailTest extends TestCase {
     Email testEmail;
     String msg;
 

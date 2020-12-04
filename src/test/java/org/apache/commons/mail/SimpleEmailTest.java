@@ -18,7 +18,7 @@ public class SimpleEmailTest extends TestCase {
     @Test
     public void testSetMsg() throws EmailException {
         Email email = testEmail.setMsg(msg);
-        assertEquals("msg", email.content.toString());
+        assertEquals(msg, email.content.toString());
         assertTrue(true);
     }
 }
